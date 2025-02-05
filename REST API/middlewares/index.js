@@ -1,4 +1,6 @@
-const fs = require("fs");
+const fs = require('fs');
+const express = require('express');
+const app = express();
 
 function logReqRes(fileName) {
   return app.use((req, res, next) => {
